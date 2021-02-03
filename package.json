@@ -1,0 +1,49 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@mdi/font": "^5.9.55",
+    "@react-native-community/checkbox": "^0.5.7",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/native": "^5.9.2",
+    "@react-navigation/stack": "^5.13.0",
+    "clarifai": "^2.9.1",
+    "expo": "~40.0.0",
+    "expo-camera": "^10.0.0",
+    "expo-image-picker": "^10.0.0",
+    "expo-media-library": "^11.0.0",
+    "expo-status-bar": "~1.0.3",
+    "native-base": "^2.15.2",
+    "react": "16.13.1",
+    "react-data-navigation": "^1.0.0",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+    "react-native-camera": "^3.42.0",
+    "react-native-circle-checkbox": "^0.1.6",
+    "react-native-elements": "^3.1.0",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-image-crop-picker": "^0.35.2",
+    "react-native-loading-spinner-overlay": "^0.1.1",
+    "react-native-maps": "^0.27.1",
+    "react-native-orientation-loading-overlay": "^0.1.6",
+    "react-native-paper": "^4.7.1",
+    "react-native-pdf": "^6.2.2",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^2.15.1",
+    "react-native-spinkit": "^1.5.1",
+    "react-native-table-component": "^1.2.1",
+    "react-native-vector-icons": "^8.0.0",
+    "react-native-web": "~0.13.12"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0"
+  },
+  "private": true
+}
