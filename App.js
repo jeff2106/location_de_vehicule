@@ -21,7 +21,29 @@ function App() {
         <Stack.Screen name="Home" component={Acceuil}  options={{
                 headerShown: false
             }}/>
-      
+        <Stack.Screen name="Reparation" component={Reparation}  options={{
+                headerShown: false
+            }}/>
+        <Stack.Screen name="ReparationDetail"  component={ReparationDetail}  options={{
+            headerShown: false
+        }}/>
+        <Stack.Screen name="CautionDetail"  component={CautionDetail}  options={{
+            headerShown: false
+        }}/>
+        <Stack.Screen name="FraisTravauxDetail"  component={FraisTravauxDetail}  options={{
+            headerShown: false
+        }}/>
+        
+        <Stack.Screen name="MethodePayement"  component={MethodePayement}  options={{
+            headerShown: false
+        }}/>
+         
+        <Stack.Screen name="ReparerUneVoiture"  component={ReparerUneVoiture}  options={{
+            headerShown: false
+        }}/>
+        <Stack.Screen name="Maps"  component={Maps}  options={{
+            headerShown: false
+        }}/>
         
         
       </Stack.Navigator>
